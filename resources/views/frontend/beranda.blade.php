@@ -6,5 +6,11 @@
     <x-beranda.hero />
 
 
+    <x-beranda.skill />
+
+
+    <x-beranda.projects />
+
+
 
 @endsection
