@@ -7,8 +7,8 @@
             </div>
             <div class="mb-4 text-center md:text-left text-3xl md:text-7xl font-extrabold">
                 <h1 class="mb-2 md:mb-4">Hi I Am</h1>
-                <h1 class="mb-2 md:mb-4">Muhammad Ikrom</h1>
-                <h1 class="mb-2 md:mb-4">Data Analys</h1>
+                <h1 class="mb-2 md:mb-4">Muhammad <span class="text-[#FD7E41]">Ikrom</span></h1>
+                <h1 class="mb-2 md:mb-4 text-[#7959D6]">Data Analys</h1>
             </div>
 
 
