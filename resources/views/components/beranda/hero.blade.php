@@ -1,4 +1,4 @@
-<section id="hero" class="dark:bg-gray-900 pt-4 md:pt-12">
+<section id="beranda" class="dark:bg-gray-900 pt-4 md:pt-12">
     <div class="mx-auto max-w-screen-xl flex flex-col md:flex-row md:justify-between">
 
         <div class=" w-full md:w-3/5  flex flex-col justify-center mx-auto md:p-0 p-4 items-center md:items-baseline">
@@ -8,7 +8,7 @@
             <div class="mb-4 text-center md:text-left text-3xl md:text-7xl font-extrabold">
                 <h1 class="mb-2 md:mb-4">Hi I Am</h1>
                 <h1 class="mb-2 md:mb-4">Muhammad <span class="text-[#FD7E41]">Ikrom</span></h1>
-                <h1 class="mb-2 md:mb-4 text-[#7959D6]">Data Analys</h1>
+                <h1 id="typing" class="mb-2 md:mb-4 text-[#7959D6]"></h1>
             </div>
 
 
@@ -18,7 +18,7 @@
                 website.</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 gap-4">
 
-                <a href="#"
+                <a href="#kontak"
                     class="bg-[#7959D6] text-white text-center px-4 py-3 font-medium text-xl rounded-md">Hubungi
                     Saya</a>
 
@@ -38,3 +38,38 @@
     </div>
 
 </section>
+
+<script>
+    const texts = [
+        "Coding",
+        "Programming",
+        "Analytical",
+        "Design"
+    ];
+
+    let count = 0;
+    let index = 0;
+    let currentText = '';
+    let letter = '';
+
+    function type() {
+        if (count === texts.length) {
+            count = 0;
+        }
+
+        currentText = texts[count];
+        letter = currentText.slice(0, ++index);
+
+        document.getElementById('typing').textContent = letter;
+
+        if (letter.length === currentText.length) {
+            count++;
+            index = 0;
+            setTimeout(type, 1500); // jeda setelah selesai mengetik
+        } else {
+            setTimeout(type, 100); // kecepatan mengetik
+        }
+    }
+
+    type();
+</script>
