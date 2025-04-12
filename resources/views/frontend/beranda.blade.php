@@ -12,5 +12,11 @@
     <x-beranda.projects />
 
 
+    <x-beranda.experience />
+
+
+    <x-beranda.kontak />
+
+
 
 @endsection

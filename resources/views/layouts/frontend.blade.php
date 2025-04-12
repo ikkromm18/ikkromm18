@@ -15,6 +15,10 @@
         rel="stylesheet">
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: "Inter", sans-serif;
             font-optical-sizing: auto;
