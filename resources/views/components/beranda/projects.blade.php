@@ -1,5 +1,5 @@
 <section id="portfolio" class="dark:bg-gray-900 py-16">
-    <div class="mx-auto max-w-screen-xl">
+    <div class="mx-auto max-w-screen-xl" data-aos="zoom-in" data-aos-duration="1500">
 
         <h1 class="p-3 font-bold text-4xl">My Projects</h1>
 
@@ -21,12 +21,13 @@
 
             </ul>
         </div>
+
         <div id="default-tab-content">
             <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
                 aria-labelledby="profile-tab">
                 <div class="flex flex-wrap mt-8 justify-center gap-8 p-4 md:p-0">
 
-                    <a href="#"
+                    <div
                         class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-64 md:rounded-none md:rounded-s-lg"
@@ -44,9 +45,9 @@
 
                             <p class="text-gray-400 text-sm">25 November 2024</p>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="#"
+                    <div
                         class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-64 md:rounded-none md:rounded-s-lg"
@@ -65,9 +66,9 @@
 
                             <p class="text-gray-400 text-sm">01 Juni 2024</p>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="#"
+                    <div
                         class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-64 md:rounded-none md:rounded-s-lg"
@@ -85,13 +86,13 @@
 
                             <p class="text-gray-400 text-sm">14 Februari 2025</p>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="#"
+                    <div
                         class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 
                         <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-64 md:rounded-none md:rounded-s-lg"
-                            src="./images/rb1.png" alt="">
+                            src="./images/r1.png" alt="">
 
                         <div class="flex flex-col justify-between p-4 leading-normal">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">M-18
@@ -103,7 +104,7 @@
 
                             <p class="text-gray-400 text-sm">20 Desember 2023</p>
                         </div>
-                    </a>
+                    </div>
 
                 </div>
 
@@ -117,11 +118,11 @@
         </div>
 
 
-        {{-- <div class="text-center mt-8">
-            <a href="#"
-                class="bg-[#7959D6] text-white text-center px-4 py-3 font-medium text-xl rounded-md">Hubungi
-                Saya</a>
-        </div> --}}
+        <div class="text-center mt-8">
+            <a href="{{ route('detail') }}"
+                class="bg-[#7959D6] text-white text-center px-4 py-3 font-medium text-xl rounded-md  hover:bg-[#6c57aa]">Detail
+                Project</a>
+        </div>
 
     </div>
 </section>

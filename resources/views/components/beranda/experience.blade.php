@@ -1,5 +1,5 @@
-<section id="pengalaman" class="dark:bg-gray-900 ">
-    <div class="mx-auto max-w-screen-xl">
+<section id="pengalaman" class="dark:bg-gray-900">
+    <div class="mx-auto max-w-screen-xl" data-aos="zoom-in" data-aos-duration="1500">
 
         <h1 class="p-3 font-bold text-4xl">Pengalaman</h1>
 

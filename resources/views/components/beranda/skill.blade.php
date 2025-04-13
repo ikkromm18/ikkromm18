@@ -1,6 +1,7 @@
 <section class="dark:bg-gray-900 py-24 ">
     <div class="mx-auto max-w-screen-xl">
-        <div class="flex flex-wrap justify-between items-center gap-6 p-8 md:p-0">
+        <div class="flex flex-wrap justify-between items-center gap-6 p-8 md:p-0" data-aos="fade-up"
+            data-aos-duration="1500">
 
             <!-- Laravel -->
             <img class="h-14 grayscale hover:grayscale-0 transition duration-300"
