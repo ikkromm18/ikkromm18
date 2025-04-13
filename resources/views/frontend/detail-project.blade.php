@@ -4,7 +4,7 @@
 
 
 
-    <section class="dark:bg-gray-900 py-24 ">
+    <section class="dark:bg-gray-900 ">
         <div class="mx-auto max-w-screen-xl">
 
             {{-- <x-detail-project /> --}}

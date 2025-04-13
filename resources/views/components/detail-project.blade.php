@@ -1,11 +1,11 @@
 <div class="flex flex-col py-8">
     {{-- Carousel --}}
     <div id="{{ Str::slug($title) }}-carousel" class="relative w-full" data-carousel="static">
-        <div class="relative  overflow-hidden rounded-lg md:h-[35rem] bg-gray-200">
+        <div class="relative h-[20rem] md:h-[35rem] rounded-lg bg-gray-200 overflow-hidden">
             @foreach ($images as $index => $img)
-                <div class="hidden duration-700 ease-in-out" data-carousel-item="{{ $index === 0 ? 'active' : '' }}">
-                    <img src="{{ $img }}" alt="..."
-                        class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                <div class="{{ $index === 0 ? '' : 'hidden' }} duration-700 ease-in-out"
+                    data-carousel-item="{{ $index === 0 ? 'active' : '' }}">
+                    <img src="{{ $img }}" alt="..." class="absolute top-0 left-0 w-full h-full object-cover">
                 </div>
             @endforeach
         </div>
