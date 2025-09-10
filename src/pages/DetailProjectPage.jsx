@@ -2,6 +2,23 @@ import React from "react";
 import DetailProject from "../components/DetailProject";
 import { Link } from "react-router-dom";
 
+// Import semua gambar dari assets
+import rb1 from "../assets/images/rb1.png";
+import rb2 from "../assets/images/rb2.png";
+import rb3 from "../assets/images/rb3.png";
+
+import alton1 from "../assets/images/alton1.png";
+import alton2 from "../assets/images/alton2.png";
+import alton3 from "../assets/images/alton3.png";
+
+import pemdes1 from "../assets/images/pemdes1.png";
+import pemdes2 from "../assets/images/pemdes2.png";
+import pemdes3 from "../assets/images/pemdes3.png";
+
+import r1 from "../assets/images/r1.png";
+import r2 from "../assets/images/r2.png";
+import r3 from "../assets/images/r3.png";
+
 const DetailProjectPage = () => {
   return (
     <section className="dark:bg-gray-900">
@@ -19,7 +36,7 @@ const DetailProjectPage = () => {
         <DetailProject
           title="Website Rumah BUMN Telkom Pekalongan"
           url="http://rbpekalongan.id"
-          images={["/images/rb1.png", "/images/rb2.png", "/images/rb3.png"]}
+          images={[rb1, rb2, rb3]}
           techs={["Laravel", "TailwindCSS", "Flowbite"]}
           description="Website Rumah BUMN merupakan proyek website bersama AGSA Dev. saya berkolaborasi dengan tim dalam merealisasikan permintaan khusus dari Rumah BUMN Telkom Kota Pekalongan. Web ini mengcover keperluan operasional seperti Booking Ruangan, Pendaftaran Event, dan Pendaftaran UMKM Binaan."
         />
@@ -27,11 +44,7 @@ const DetailProjectPage = () => {
         <DetailProject
           title="Website ALTON Online Shop"
           url="#"
-          images={[
-            "/images/alton1.png",
-            "/images/alton2.png",
-            "/images/alton3.png",
-          ]}
+          images={[alton1, alton2, alton3]}
           techs={["Laravel", "TailwindCSS", "Livewire", "Flowbite"]}
           description="Website ALTON merupakan website yang saya buat bersama AGSA Dev. Alton adalah sebuah brand pakaian jadi dibawah PT Dakota Mitra Tama, Kabupaten Pekalongan. Alton Online Shop dibuat untuk menghandle penjualan produk-produk mereka."
         />
@@ -39,11 +52,7 @@ const DetailProjectPage = () => {
         <DetailProject
           title="Website Pelayanan Administrasi Di PEMDES Wonoyoso"
           url="https://pemdeswonoyoso.agsa.site/"
-          images={[
-            "/images/pemdes1.png",
-            "/images/pemdes2.png",
-            "/images/pemdes3.png",
-          ]}
+          images={[pemdes1, pemdes2, pemdes3]}
           techs={["Laravel", "TailwindCSS", "PWA", "Flowbite"]}
           description="Website ini merupakan tugas akhir saya. website ini berguna untuk membantu warga di Desa Wonoyoso untuk melakukan pengajuan administrasi dimana saja. serta membantu perangkat desa untuk mengelola keadministrasian surat-menyurat."
         />
@@ -51,7 +60,7 @@ const DetailProjectPage = () => {
         <DetailProject
           title="Katalog Restaurant"
           url="#"
-          images={["/images/r1.png", "/images/r2.png", "/images/r3.png"]}
+          images={[r1, r2, r3]}
           techs={["HTML", "JavaScript", "CSS", "Webpack"]}
           description="Website ini dibuat saat saya mengikuti program Studi Independen Bersertifikat di Dicoding. Proyek ini merupakan tugas akhir dari salah satu kelas yang saya ikuti, dengan konten berupa daftar restoran, Menu, dan Testimoni yang datanya diambil dari API."
         />

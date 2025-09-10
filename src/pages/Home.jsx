@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Portfolio from "../components/Portofolio";
 import Pengalaman from "../components/Pengalaman";
 import Kontak from "../components/Kontak";
+import IkromImg from "../assets/images/Ikrom.png";
 
 export default function Beranda() {
   const texts = ["Coding", "Programming", "Analytical", "Design"];
@@ -87,7 +88,7 @@ export default function Beranda() {
             data-aos-duration="1500"
           >
             <div className="w-[30rem] mx-auto">
-              <img src="./images/Ikrom.png" alt="gambar ikrom" />
+              <img src={IkromImg} alt="gambar ikrom" />
             </div>
           </div>
         </div>

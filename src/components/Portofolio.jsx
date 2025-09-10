@@ -1,6 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+// Import semua gambar dari assets
+import rb1 from "../assets/images/rb1.png";
+import alton1 from "../assets/images/alton1.png";
+import pemdes1 from "../assets/images/pemdes1.png";
+import r1 from "../assets/images/r1.png";
+
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("website");
 
@@ -9,25 +15,25 @@ const Portfolio = () => {
       title: "Website Rumah BUMN Pekalongan",
       desc: "Website Operasional Rumah BUMN Telkom Pekalongan",
       date: "25 November 2024",
-      img: "./images/rb1.png",
+      img: rb1,
     },
     {
       title: "Website Alton",
       desc: "Alton adalah sebuah brand pakaian jadi dibawah PT Dakota Mitra Tama, Kabupaten Pekalongan, Alton Online Shop dibuat untuk menghandle penjualan produk-produk mereka.",
       date: "01 Juni 2024",
-      img: "./images/alton1.png",
+      img: alton1,
     },
     {
       title: "Website Pelayanan Administrasi Pemdes Wonoyoso",
       desc: "Website untuk membantu proses pelayanan administrasi di Desa Wonoyoso",
       date: "14 Februari 2025",
-      img: "./images/pemdes1.png",
+      img: pemdes1,
     },
     {
       title: "M-18 Restaurant",
       desc: "Website untuk melihat Katalog Restaurant",
       date: "20 Desember 2023",
-      img: "./images/r1.png",
+      img: r1,
     },
   ];
 
