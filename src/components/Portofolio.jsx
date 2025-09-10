@@ -6,6 +6,7 @@ import rb1 from "../assets/images/rb1.png";
 import alton1 from "../assets/images/alton1.png";
 import pemdes1 from "../assets/images/pemdes1.png";
 import r1 from "../assets/images/r1.png";
+import fiifa1 from "../assets/images/fiifa1.png";
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("website");
@@ -35,6 +36,13 @@ const Portfolio = () => {
       date: "20 Desember 2023",
       img: r1,
     },
+
+    {
+      title: "FiiFa Print & Fotocopy",
+      desc: "Sistem Pengelolaan Percetakan ",
+      date: "16 Aguatus 2025",
+      img: fiifa1,
+    },
   ];
 
   return (
@@ -61,7 +69,7 @@ const Portfolio = () => {
                 Website
               </button>
             </li>
-            <li className="me-2">
+            {/* <li className="me-2">
               <button
                 onClick={() => setActiveTab("data")}
                 className={`inline-block p-4 border-b-2 rounded-t-lg ${
@@ -72,7 +80,7 @@ const Portfolio = () => {
               >
                 Data
               </button>
-            </li>
+            </li> */}
           </ul>
         </div>
 

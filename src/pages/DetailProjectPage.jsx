@@ -19,6 +19,10 @@ import r1 from "../assets/images/r1.png";
 import r2 from "../assets/images/r2.png";
 import r3 from "../assets/images/r3.png";
 
+import fiifa1 from "../assets/images/fiifa1.png";
+import fiifa2 from "../assets/images/fiifa2.png";
+import fiifa3 from "../assets/images/fiifa3.png";
+
 const DetailProjectPage = () => {
   return (
     <section className="dark:bg-gray-900">
@@ -42,6 +46,14 @@ const DetailProjectPage = () => {
         />
 
         <DetailProject
+          title="Sistem Kasir Fiifa Print & Fotocopy"
+          url="https://github.com/ikkromm18/fiifa-print-app"
+          images={[fiifa1, fiifa2, fiifa3]}
+          techs={["Laravel", "TailwindCSS", "Flowbite"]}
+          description="Sistem Kasir Fiifa Print & Fotocopy merupakan aplikasi berbasis web yang saya buat menggunakan Laravel. Sistem ini dirancang untuk membantu pengelolaan operasional percetakan, mulai dari kelola kategori produk, kelola produk, pencatatan transaksi dengan detail dan cetak struk, hingga laporan penjualan. Selain itu terdapat fitur dashboard interaktif dan manajemen akun untuk admin maupun kasir."
+        />
+
+        <DetailProject
           title="Website ALTON Online Shop"
           url="#"
           images={[alton1, alton2, alton3]}
@@ -51,7 +63,7 @@ const DetailProjectPage = () => {
 
         <DetailProject
           title="Website Pelayanan Administrasi Di PEMDES Wonoyoso"
-          url="https://pemdeswonoyoso.agsa.site/"
+          url="https://github.com/ikkromm18/pemdes-wonoyoso"
           images={[pemdes1, pemdes2, pemdes3]}
           techs={["Laravel", "TailwindCSS", "PWA", "Flowbite"]}
           description="Website ini merupakan tugas akhir saya. website ini berguna untuk membantu warga di Desa Wonoyoso untuk melakukan pengajuan administrasi dimana saja. serta membantu perangkat desa untuk mengelola keadministrasian surat-menyurat."
@@ -59,7 +71,7 @@ const DetailProjectPage = () => {
 
         <DetailProject
           title="Katalog Restaurant"
-          url="#"
+          url="https://github.com/ikkromm18/restaurant-apps-m18"
           images={[r1, r2, r3]}
           techs={["HTML", "JavaScript", "CSS", "Webpack"]}
           description="Website ini dibuat saat saya mengikuti program Studi Independen Bersertifikat di Dicoding. Proyek ini merupakan tugas akhir dari salah satu kelas yang saya ikuti, dengan konten berupa daftar restoran, Menu, dan Testimoni yang datanya diambil dari API."

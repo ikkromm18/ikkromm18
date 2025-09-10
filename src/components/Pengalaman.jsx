@@ -116,6 +116,21 @@ const Pengalaman = () => {
                   acara
                 </li>
               </ul>
+
+              <h2 className="mb-2 pt-4 text-lg font-semibold text-gray-900 dark:text-white">
+                PT Dakota Mitra Tama (Maret - Juni 2024) - Internship
+              </h2>
+              <ul className="max-w-2xl space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                <li>
+                  Melakukan analisis kebutuhan sistem untuk pengembangan website
+                  brand ALTON
+                </li>
+                <li>Merancang struktur database</li>
+                <li>
+                  Berkolaborasi dengan tim menggunakan Laravel 11 dan
+                  TailwindCSS
+                </li>
+              </ul>
             </div>
           )}
 

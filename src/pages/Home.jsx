@@ -113,6 +113,14 @@ export default function Beranda() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"
               alt="Code Igneter 4"
             />
+
+            {/* React.js */}
+            <img
+              className="h-14 grayscale hover:grayscale-0 transition duration-300"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+            />
+
             {/* Tailwind CSS */}
             <img
               className="h-14 grayscale hover:grayscale-0 transition duration-300"
@@ -160,12 +168,6 @@ export default function Beranda() {
               alt="PHP"
             />
 
-            {/* Node.js */}
-            <img
-              className="h-14 grayscale hover:grayscale-0 transition duration-300"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-              alt="Node.js"
-            />
             {/* Vite */}
             <img
               className="h-14 grayscale hover:grayscale-0 transition duration-300"
