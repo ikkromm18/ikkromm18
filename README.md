@@ -9,13 +9,13 @@
 
 Saya adalah seorang web developer yang fokus pada pengembangan aplikasi berbasis Laravel dan Tailwind CSS. Saat ini saya aktif dalam pengembangan aplikasi layanan publik dan pengelolaan website organisasi.
 
--   🌱 Sedang belajar: **Website dan Pengelolaan Data**
--   👨‍🏫 Pernah jadi: **Menkominfo BEM**, **Sekretaris Organisasi**
--   📫 Kontak saya:
-    -   [Instagram](https://instagram.com/ikkrom_m18) – `@ikkrom_m18`
-    -   [GitHub](https://github.com/ikkromm18) – `ikkromm18`
-    -   📧 Email: muhammadikkrom749@gmail.com
-    -   📱 WhatsApp: +62 821-3488-5973
+- 🌱 Sedang belajar: **Website dan Pengelolaan Data**
+- 👨‍🏫 Pernah jadi: **Menkominfo BEM**, **Sekretaris Organisasi**
+- 📫 Kontak saya:
+  - [Instagram](https://instagram.com/ikkrom_m18) – `@ikkrom_m18`
+  - [GitHub](https://github.com/ikkromm18) – `ikkromm18`
+  - 📧 Email: muhammadikkrom749@gmail.com
+  - 📱 WhatsApp: +62 821-3488-5973
 
 ---
 
